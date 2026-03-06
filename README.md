@@ -16,6 +16,16 @@ This system solves that problem automatically:
 - Stores all results locally — no cloud, no cost
 
 ---
+## Dashboard Preview
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Result Page
+![Result Page](screenshots/result.png)
+
+### Analytics Dashboard
+![Analytics](screenshots/analytics.png)
 
 ## Live Pipeline
 
@@ -223,4 +233,4 @@ ffmpeg (system dependency)
 
 ---
 
-*Built with 0 rupees. Runs locally. No cloud. No APIs. Just AI.*
+
