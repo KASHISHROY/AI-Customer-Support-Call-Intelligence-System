@@ -1,6 +1,6 @@
 # AI Customer Call Analyzer
 
-> A fully local, zero-cost AI system that transforms raw customer support call recordings into structured business insights — built in 4 days.
+> A fully local, zero-cost AI system that transforms raw customer support call recordings into structured business insights 
 
 ---
 
@@ -183,14 +183,7 @@ Added upload button, analyze button, analytics page, and professional dark UI.
 
 ---
 
-## Problems Faced & How They Were Solved
 
-| Problem | Cause | Solution |
-|---------|-------|---------|
-| `No module named whisper` | Wrong Python being used | Used `py -m pip install` instead of `pip install` |
-| FFmpeg not found | Not installed on Windows | `winget install ffmpeg` |
-| All results showing NEGATIVE | DistilBERT only knows movie reviews | Switched to RoBERTa trained on real customer text |
-| Duplicate JSON files | Timestamp in filename = new file each time | Fixed filename to `audio_name.json` so same file overwrites |
 
 ---
 
